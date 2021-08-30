@@ -49,6 +49,12 @@
   }
 }
 
+
+.masthead {
+  padding-top: calc(6rem + -50px);
+
+}
+
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
@@ -10920,6 +10926,7 @@ html {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
@@ -10995,7 +11002,7 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
+  padding-top: calc(6rem + -50px);
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
@@ -11011,7 +11018,7 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(6rem + -50px)
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
